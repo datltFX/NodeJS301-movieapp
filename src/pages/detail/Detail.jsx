@@ -89,7 +89,13 @@ const Detail = () => {
         </div>
       </div>
       <div className="container">
-        {isVideo && <YouTube videoId={keyVideo} opts={opts} />}
+        {isVideo ? (
+          <YouTube videoId={keyVideo} opts={opts} />
+        ) : (
+          <div className="not_found_video">
+            <h1>Not Found Movie!</h1>
+          </div>
+        )}
       </div>
     </div>
   );
