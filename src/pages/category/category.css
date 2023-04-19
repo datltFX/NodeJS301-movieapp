@@ -1,0 +1,16 @@
+.category__container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  padding: 100px 0px 80px;
+  background-color: rgb(44, 42, 42);
+  color: white;
+}
+.title__category {
+  color: rgb(0, 255, 0);
+  padding: 10px 0;
+  text-align: center;
+}

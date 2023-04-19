@@ -1,0 +1,35 @@
+.nav__container {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  padding: 10px;
+  height: 50px;
+  z-index: 10;
+  justify-content: space-between;
+  color: red;
+
+  /*Animation*/
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.nav__black {
+  background-color: #111;
+}
+
+.nav__logo {
+  position: fixed;
+  left: 20px;
+  width: 200px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.nav__search {
+  width: 30px;
+  position: fixed;
+  right: 20px;
+  object-fit: contain;
+  cursor: pointer;
+}

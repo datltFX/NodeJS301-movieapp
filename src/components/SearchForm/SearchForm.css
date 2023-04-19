@@ -1,0 +1,110 @@
+.search__form {
+  margin: auto;
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  padding: 0 0 80px;
+  background-color: rgb(44, 42, 42);
+  color: white;
+}
+
+.title__search {
+  color: rgb(0, 255, 0);
+  padding: 10px 0;
+  text-align: center;
+}
+
+.search {
+  text-align: center;
+  width: 100%;
+}
+
+input {
+  color: white;
+  background-color: black;
+  border-radius: 30px;
+  padding: 0.4rem 1.8rem;
+  border: none;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  margin-left: -75px;
+  padding: 0px 150px;
+  gap: 20px;
+}
+
+.form--item h5 {
+  margin-bottom: 0.7rem;
+}
+
+.name > input {
+  min-width: 350px;
+}
+
+.year {
+  max-width: 190px;
+}
+
+.select > select {
+  text-align: center;
+  min-width: 170px;
+}
+
+.btn_search {
+  display: flex;
+  float: right;
+  padding-right: 50px;
+  padding-top: 10px;
+  gap: 25px;
+}
+
+button {
+  cursor: pointer;
+  margin-top: 14px;
+}
+
+.btnSearch {
+  border-width: 2px;
+  padding: 0.1rem 0.5rem;
+  font-size: 1rem;
+  border: 3px solid transparent;
+  background-color: #2596be;
+  border-radius: 30px;
+  color: white;
+  box-shadow: 0px 0px 2px 5px rgb(38, 89, 107);
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+.btnSearch:hover {
+  box-shadow: 0px 0px 7px 15px rgb(38, 89, 107);
+}
+
+.btnReset {
+  border-width: 2px;
+  padding: 0.1rem 0.5rem;
+  font-size: 1rem;
+  border: 3px solid transparent;
+  background-color: #ff0000;
+  border-radius: 30px;
+  color: white;
+  box-shadow: 0px 0px 2px 5px #ff00004d;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+.btnReset:hover {
+  box-shadow: 0px 0px 7px 15px #ff00004d;
+}
+
+select {
+  cursor: pointer;
+  /* font-family: $font-family; */
+  background-color: black;
+  color: white;
+  border-radius: 30px;
+  padding: 0.5rem 1.8rem;
+  border: none;
+}
+
+.result_search {
+  text-align: center;
+}

@@ -1,0 +1,32 @@
+.search__result {
+  margin: 10px;
+  background-color: #333;
+}
+
+.search__result > h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  padding: 10px;
+}
+
+.search__posters {
+  margin-left: 30px;
+  padding: 20px;
+}
+
+.search__posterLarge {
+  margin: 5px 10px;
+  max-height: 250px;
+  max-width: 120px;
+  cursor: pointer;
+}
+
+.search__posterLarge:hover {
+  transform: scale(1.09);
+}
+.not_found_movie {
+  padding-top: 10px;
+  align-items: center;
+  text-align: center;
+  color: red;
+}
